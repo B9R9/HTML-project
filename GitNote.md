@@ -19,7 +19,8 @@ mv nameofthefile foldername --> permet de bouger un fichier dans un autre dossie
 git status --> to check le status du fichier
 git init --> initialision du projet. permet le back up
 git commit -m "name of the save" --> save as // sauvegarder
-git add --> ajouter un fichier pour le sauvegarder
+git add  filname--> ajouter un fichier pour le sauvegarder
+git add . --> ajouter tous
 git rm --cached namefile --> to remove file
 git remote add origin githubaddressofthedirectory --> conneter le project a git hub
 git push -u origin main(ou master)--> upload le fichier sur github
@@ -27,5 +28,6 @@ git pull --> download les changements fait sur Github
 git branch branchname --> permet de creer une nouvelle branche
 git branch --> permet de voir combien de branche il y a et sur quel branche on est
 git checkout branchname --> permet de se rendre la branche appeler
+git merge  version-1 --> fusionner les branches avec master
 
 
