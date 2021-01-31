@@ -9,17 +9,63 @@
       <meta name= "viewport" content="witdth=device-width, initial-scale=1.0"/>
 
       <title>Nos voyages autour du monde </title>
+      <style>
+
+        #header
+        {
+            background-color:blue;color:red; text-align: center; text-transform: uppercase;padding: 30px;
+        }
+        #menu
+        {
+            list-style: none;
+            text-align: center; 
+            
+        }
+
+        #menu a
+        { 
+           color:rgb(243, 240, 243);
+           text-decoration: none;
+        }
+        #menu li
+        {
+            background: red;
+        }
+
+        #pacifique
+        {
+            background-color: rgb(219, 208, 208);
+        }
+        #title
+        {
+            text-align: center;
+        }
+      </style>
+     
+      
     </head>
 
 
 <body>
+    <div >
     <header>
-       <h1> Venez prendre un peu d'air </h1>
+       <h1 id="header"> venez prendre un peu d'air </h1>
+       <up id="menu" ">
+        <li >
+            <a href="./Contact/ContactMe.html" 
+            target="_blank"  >Contact Us</a>
+        </li>
+        <li style="color:white">
+            <a href="./Contact/ContactMe.html"
+            target="_blank">Test</a>
+        </li>
+        </up>
+    </div>
     </header>
 
     <main>
      <div>
-    <h2> ASIE </h2>
+    <h2 id="title"> ASIE </h2>
         <p>Venez découvir nos souvenirs de Chine,du Laos ou encore du Cambodge </p>
             <ul>
                 <li>
@@ -32,18 +78,23 @@
                 <li>Laos</li>
                 
             </ul>
-    <h2> OCEANIE</h2>
+        </div>
+    <div style="color:rebeccapurple ; border: 2px solid red;">
+    <h2 style ="text-align:center"> OCEANIE</h2>
         <p>Venez découvrir nos aventures en Australie et Nouvelle-Zélande</p>
             <ul>
                 <li>Australie</li>
                 <li>Nouvelle-Zélande</li>
             </ul>
-    <h2> PACIFIQUE</h2>
+    </div>
+    <div id="pacifique">
+    <h2 id="title"> PACIFIQUE</h2>
         <p> Une halte au milieu du Pacifique: Polynésie et îles de Pâques</p>
             <ul>
                 <li>Polynésie francaise</li>
                 <li>Iles de Paques</li>
             </ul>
+    </div>
     <h2> AMERIQUE DU NORD</h2>
         <p> Un voyage dans la Big Apple</p>
              <ul>
@@ -72,13 +123,22 @@
      target ="_blank">Video training Git and Github part 1</a>
      <a href="https://www.youtube.com/watch?v=-UCsdd3j-xM" 
      target ="_blank">part2</a>
+     <br>
+     <a href="https://www.youtube.com/watch?v=kaGAsXTpHE4" 
+     target ="_blank">Week 3 HTML elements</a>
      
 
 
     </main>   
 
-    <footer>
-        Copyright 2021 | Baptiste Riffard
+    <footer style="background-color:blue;color:red; text-align: center; text-transform: uppercase;padding: 25px">
+       
+        <div>
+            <p>
+                Copyright 2021 | Baptiste Riffard
+            </p>
+        </div>
+       
     </footer>
 
 </body>
